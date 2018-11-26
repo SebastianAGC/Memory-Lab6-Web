@@ -1,0 +1,50 @@
+{
+  "name": "React-Boilerplate",
+  "version": "1.0.0",
+  "description": "React Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianAGC/Memory-Lab6-Web.git"
+  },
+  "author": "King",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebastianAGC/Memory-Lab6-Web/issues"
+  },
+  "homepage": "https://github.com/SebastianAGC/Memory-Lab6-Web#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.16.4",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^23.6.0",
+    "react": "^16.6.3",
+    "react-card-flip": "^0.3.0",
+    "react-dom": "^16.6.3",
+    "react-native-background-audio": "^1.1.4",
+    "react-sound": "^1.2.0",
+    "style-loader": "^0.23.1",
+    "underscore": "^1.9.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.4",
+    "webpack-parts": "^2.0.0"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.1",
+    "eslint": "^5.9.0",
+    "eslint-plugin-react": "^7.11.1",
+    "file-loader": "^2.0.0",
+    "lodash": "^4.17.11",
+    "url-loader": "^1.1.2"
+  }
+}
